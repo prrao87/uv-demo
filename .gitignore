@@ -1,0 +1,6 @@
+ex_kuzu_db
+test_kuzudb
+logdir
+.env
+.venv
+.DS_Store
