@@ -154,7 +154,7 @@ if __name__ == "__main__":
     print(f"Q1: {question}\n\n{response}\n---")
 
     question = (
-        "What is Joseph Cooper's character known for in the movie Interstellar? Which actor played him?"
+        "Who is the character Joseph Cooper in the movie Interstellar? Which actor played him?"
     )
     response = graph_rag.run(question)
     print(f"Q2: {question}\n\n{response}\n---")
