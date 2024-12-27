@@ -5,14 +5,17 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "ell-ai[sqlite]==0.0.15",
-    "kuzu==0.7.0",
-    "llama-index-embeddings-openai~=0.3.0",
-    "llama-index==0.12.2",
-    "python-dotenv==1.0.1",
-    "llama-index-graph-stores-kuzu~=0.6.0",
-    "polars==1.16.0",
+    "kuzu==0.7.1",
+    "lancedb==0.17.0",
+    "llama-index-llms-openai==0.3.12",
+    "llama-index==0.12.8",
+    "llama-index-embeddings-openai==0.3.1",
+    "llama-index-graph-stores-kuzu==0.6.0",
+    "llama-index-vector-stores-lancedb==0.3.0",
+    "numpy==2.2.1",
+    "polars==1.18.0",
     "pyarrow==18.1.0",
+    "python-dotenv==1.0.1",
 ]
 
 [dependency-groups]
