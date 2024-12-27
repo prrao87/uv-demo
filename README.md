@@ -63,11 +63,7 @@ The dependencies in `pyproject.toml` file and its associated lock file `uv.lock`
 in a local virtual environment, in the directory `.venv`. To share the dependencies in a
 platform-agnostic manner with your collaborators, you can simply commit the `uv.lock` file and
 `pyproject.toml` to your repository, and this will allow them to reproduce the same environment 
-on their own machines by running:
-
-```bash
-uv sync
-```
+on their own machines by running `uv sync` on their own machines.
 
 > [!NOTE]
 > If you are relying on `uv` to manage your Python version, **you do not need to worry about virtual
