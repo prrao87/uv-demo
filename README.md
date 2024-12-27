@@ -63,19 +63,20 @@ uv sync
 
 ## Running the demo
 
-For this example, we will use the OpenAI API key stored in the `.env` file. Copy the file
-`.env.example` to `.env` and add your OpenAI API key.
-
-Next, run the following commands:
+You can execute the `hello.py` script by running the following command:
 
 ```bash
-# Create the graph
-uv run create_graph.py
-
-# Run elementary Graph RAG on the newly constructed graph
-uv run graph_rag.py
+uv run hello.py
 ```
 
-You've now built a graph database of the movie Interstellar and answered questions about it using a
-graph!
+This is very similar to running `python hello.py` or `python3 hello.py` in the terminal, but under the hood,
+`uv` is performing a whole host of steps, including the following:
 
+1. Installs Python if it's not already installed
+2. Creates and activates the virtual environment
+3. Installs the dependencies
+4. Runs the code
+
+This is a very simple example, but hopefully, it demonstrates how `uv` can make it so much easier to
+manage multiple Python versions, local virtual environments and all your project's dependencies.
+Have fun using uv, and spread the word!
